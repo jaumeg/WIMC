@@ -1,0 +1,56 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+
+    <style name="debugLbl">
+        <item name="android:background">@color/debugBG</item>
+        <item name="android:textColor">@color/debugFG</item>
+        <item name="android:padding">12dp</item>
+    </style>
+
+    <style name ="fichaShow"></style>
+
+    <style name="fichaShow.normal" parent="fichaShow">
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="fichaShow.titolBig" parent="fichaShow">
+        <!-- Customize your theme here. -->
+        <item name="android:textSize">26sp</item>
+        <item name="android:textStyle">bold</item>
+
+        <item name="android:shadowDx">6.0</item>
+        <item name="android:shadowDy">6.0</item>
+        <item name="android:shadowRadius">12</item>
+
+    </style>
+
+
+<!--    <style name="button1" parent="@android:style/Widget.Button">-->
+    <style name="button1" parent="">
+        <item name="android:padding">20dp</item>
+
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:background">@drawable/button</item>
+        <item name="android:tint">#FFFFFF</item>
+    </style>
+
+</resources>

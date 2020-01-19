@@ -1,0 +1,23 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="es.utopik.wimc.MainActivity">
+    <item
+        android:id="@+id/menuItem_Historial"
+        android:title="Historial" />
+    <item
+        android:id="@+id/menuItem_Ajustes"
+        android:orderInCategory="100"
+        android:title="Ajustes"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/menuItem_acercaDe"
+        android:title="Acerca de"
+        android:orderInCategory="200"
+        />
+    <item
+        android:id="@+id/menuItem_GoogleMaps"
+        android:title="Google Maps" />
+
+
+</menu>

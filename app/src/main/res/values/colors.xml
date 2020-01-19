@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#263BC4</color>
+    <color name="colorAccent">#03A9F4</color>
+    <color name="colorPrimary_bak">#008577</color>
+    <color name="colorPrimaryDark_bak">#00574B</color>
+    <color name="colorAccent_bak">#D81B60</color>
+
+    <!--    JGS-->
+    <color name="debugBG">#AA2507</color>
+    <color name="debugFG">#FFffff</color>
+</resources>

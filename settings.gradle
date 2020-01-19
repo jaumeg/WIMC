@@ -1,0 +1,6 @@
+include ':app'
+rootProject.name='WIMC'
+
+//19.01.2020
+include ":jgsUtils"
+project(":jgsUtils").projectDir = file("../jgsUtils")
